@@ -1,7 +1,7 @@
 {
-    "name": "Dark Low Contrast Theme",
-    "displayName": "theme-dark-low-contrast",
-    "description": "Dark Low Contrast theme for Visual Studio Code",
+    "name": "dark-low-contrast",
+    "displayName": "Dark Low Contrast Theme",
+    "description": "Dark Low Contrast Theme for Visual Studio Code",
     "version": "0.1.0",
     "engines": {
         "vscode": "^1.37.0"
@@ -17,5 +17,9 @@
                 "path": "./themes/dark-low-contrast-color-theme.json"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/evgeniyp/vscode-dark-low-contrast.git"
     }
 }

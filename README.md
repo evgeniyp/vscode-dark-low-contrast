@@ -1,13 +1,21 @@
-# README
-## This is the README for your extension "theme-dark-low-contrast"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# One Monokai Theme
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+A cross between Monokai and One Dark theme
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Install
 
-**Enjoy!**
+press `ctl/command + shift + p` to launch the command palette then run
+
+```bash
+ext install dark-low-contrast
+```
+
+## Screenshot
+
+Screenshot of F# and JavaScript
+
+![Theme Screenshot](screenshot-v0.1.0.png)
+
+## Change log
+
+You can take a look at the change log [here](https://github.com/evgeniyp/vscode-dark-low-contrast/blob/master/CHANGELOG.md)
