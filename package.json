@@ -1,20 +1,21 @@
 {
-	"name": "theme-dark-low-contrast",
-	"displayName": "%displayName%",
-	"description": "%description%",
-	"version": "1.0.0",
-	"publisher": "vscode",
-	"license": "MIT",
-	"engines": {
-		"vscode": "*"
-	},
-	"contributes": {
-		"themes": [
-			{
-				"label": "Dark Low Contrast",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dark-low-contrast-theme.json"
-			}
-		]
-	}
+    "name": "Dark Low Contrast Theme",
+    "displayName": "theme-dark-low-contrast",
+    "description": "Dark Low Contrast theme for Visual Studio Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Low Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-low-contrast-color-theme.json"
+            }
+        ]
+    }
 }

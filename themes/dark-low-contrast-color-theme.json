@@ -1,5 +1,5 @@
 {
-  "$schema": "vscode://schemas/color-theme",
+  "name": "Dark Low Contrast",
   "type": "dark",
   "colors": {
     "activityBarBadge.background": "#0667A9",
