@@ -1,6 +1,6 @@
-# One Monokai Theme
+# Dark+ theme with lowered contrast
 
-A cross between Monokai and One Dark theme
+Theme based on Dark+ but lowered contrast & some minor visual fixes
 
 ## Install
 

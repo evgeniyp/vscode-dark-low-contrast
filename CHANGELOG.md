@@ -1,6 +1,6 @@
 # Change Log
 
-All notable changes to the "theme-dark-low-contrast" extension will be documented in this file.
+All notable changes will be documented in this file.
 
 ## v0.1.0
 
