@@ -4,7 +4,7 @@ Theme based on Dark+ but lowered contrast & some minor visual fixes
 
 ## Install
 
-press `ctl/command + shift + p` to launch the command palette then run
+press `ctl/command + p` to launch the command palette then run
 
 ```bash
 ext install dark-low-contrast
@@ -14,7 +14,7 @@ ext install dark-low-contrast
 
 Screenshot of F# and JavaScript
 
-![Theme Screenshot](screenshot-v0.1.0.png)
+![Theme Screenshot](screenshot-v0.1.1.png)
 
 ## Change log
 

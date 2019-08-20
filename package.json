@@ -2,10 +2,12 @@
     "name": "dark-low-contrast",
     "displayName": "Dark Low Contrast Theme",
     "description": "Dark Low Contrast Theme for Visual Studio Code",
-    "version": "0.1.0",
+    "version": "0.1.1",
+    "publisher": "EvgeniyPetukhov",
     "engines": {
         "vscode": "^1.37.0"
     },
+    "icon": "icon.png",
     "categories": [
         "Themes"
     ],

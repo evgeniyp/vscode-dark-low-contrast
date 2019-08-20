@@ -2,6 +2,10 @@
 
 All notable changes will be documented in this file.
 
+## v0.1.1
+
+Added icon.png, fixed readme
+
 ## v0.1.0
 
 - Initial release
