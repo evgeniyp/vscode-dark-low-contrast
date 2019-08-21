@@ -2,9 +2,15 @@
 
 All notable changes will be documented in this file.
 
+## v0.2.0
+
+- Added new themes
+  - Monokai Low Contrast
+  - Monokai Low Contrast No Italic
+
 ## v0.1.1
 
-Added icon.png, fixed readme
+- Added icon.png, fixed readme
 
 ## v0.1.0
 

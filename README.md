@@ -1,6 +1,6 @@
-# Dark+ theme with lowered contrast
+# Dark themes with lowered contrast
 
-Theme based on Dark+ but lowered contrast & some minor visual fixes
+Themes based on VS Code built in themes, but with lowered contrast & some minor visual fixes
 
 ## Install
 
@@ -10,11 +10,19 @@ press `ctl/command + p` to launch the command palette then run
 ext install dark-low-contrast
 ```
 
-## Screenshot
+## Screenshots
 
-Screenshot of F# and JavaScript
+### Dark Low Contrast
 
-![Theme Screenshot](screenshot-v0.1.1.png)
+![Theme Screenshot](screenshots/dark.png)
+
+### Monokai Low Contrast
+
+![Theme Screenshot](screenshots/monokai.png)
+
+### Monokai Low Contrast No Italic
+
+![Theme Screenshot](screenshots/monokai-no-italic.png)
 
 ## Change log
 

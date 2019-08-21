@@ -1,8 +1,8 @@
 {
     "name": "dark-low-contrast",
-    "displayName": "Dark Low Contrast Theme",
-    "description": "Dark Low Contrast Theme for Visual Studio Code",
-    "version": "0.1.1",
+    "displayName": "Dark Low Contrast Themes",
+    "description": "Dark Low Contrast Themes for Visual Studio Code",
+    "version": "0.2.0",
     "publisher": "EvgeniyPetukhov",
     "engines": {
         "vscode": "^1.37.0"
@@ -17,6 +17,16 @@
                 "label": "Dark Low Contrast",
                 "uiTheme": "vs-dark",
                 "path": "./themes/dark-low-contrast-color-theme.json"
+            },
+            {
+                "label": "Monokai Low Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/monokai-low-contrast-color-theme.json"
+            },
+            {
+                "label": "Monokai Low Contrast No Italic",
+                "uiTheme": "vs-dark",
+                "path": "./themes/monokai-low-contrast-no-italic-color-theme.json"
             }
         ]
     },
