@@ -2,6 +2,82 @@
 
 All notable changes will be documented in this file.
 
+## v0.3.0
+
+- Added new theme
+  - Dark Low Contrast Warm
+
+Made from original Dark (Visual Studio) theme with all lines uncommented & modified by C# script
+
+```C#
+void Main() {
+    var originalTheme = @"<exported dark+ theme file>";
+    var colorSchemaString = File.ReadAllText(originalTheme);
+
+    var pattern = @"\#([0-9]|([a-f])|([A-F])){6}";
+    var result = Regex.Replace(colorSchemaString, pattern, m => Process(m, 0.70, -15, 0.2, 0.1, 0));
+
+    result.Dump();
+}
+
+string Process(Match rgbHex, double factor, int brightnessCorrection, double r, double g, double b) {
+    return ParseHex(rgbHex.ToString())
+        .LowerContrast(factor, brightnessCorrection)
+        .Colorize(r, g, b)
+        .ToHex();
+}
+
+Rgb ParseHex(string rgbHex) {
+    var s = rgbHex.ToString();
+    return new Rgb {
+        r = int.Parse(s.Substring(1, 2), System.Globalization.NumberStyles.HexNumber),
+        g = int.Parse(s.Substring(3, 2), System.Globalization.NumberStyles.HexNumber),
+        b = int.Parse(s.Substring(5, 2), System.Globalization.NumberStyles.HexNumber)
+    };
+}
+
+struct Rgb {
+    public double r;
+    public double g;
+    public double b;
+
+    public Rgb LowerContrast(double factor, int brightnessCorrection) {
+        r = Math.Round(factor * (r - 128) + 128 + brightnessCorrection);
+        g = Math.Round(factor * (g - 128) + 128 + brightnessCorrection);
+        b = Math.Round(factor * (b - 128) + 128 + brightnessCorrection);
+        return this;
+    }
+
+    public Rgb Colorize(double r, double g, double b) {
+        this.r = this.r * (1 + r);
+        this.g = this.g * (1 + g);
+        this.b = this.b * (1 + b);
+        return this;
+    }
+
+    public string ToHex() {
+        r = Extensions.Clamp<double>(r, 0, 255);
+        g = Extensions.Clamp<double>(g, 0, 255);
+        b = Extensions.Clamp<double>(b, 0, 255);
+        return "#" + ((int)r).ToString("X2") + ((int)g).ToString("X2") + ((int)b).ToString("X2");
+    }
+}
+
+public static class Extensions {
+    public static T Clamp<T>(this T val, T min, T max) where T : IComparable<T> {
+        if (val.CompareTo(min) < 0) return min;
+        else if (val.CompareTo(max) > 0) return max;
+        else return val;
+    }
+}
+```
+
+Also applied some slight opacity modifications for values:
+
+- `"editorWhitespace.foreground"`
+- `"editorIndentGuide.activeBackground"`
+- `"editorIndentGuide.background"`
+
 ## v0.2.0
 
 - Added new themes

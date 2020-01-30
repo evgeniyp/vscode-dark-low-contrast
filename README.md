@@ -16,6 +16,10 @@ ext install dark-low-contrast
 
 ![Theme Screenshot](screenshots/dark.png)
 
+### Dark Low Contrast Warm
+
+![Theme Screenshot](screenshots/dark-warm.png)
+
 ### Monokai Low Contrast
 
 ![Theme Screenshot](screenshots/monokai.png)
