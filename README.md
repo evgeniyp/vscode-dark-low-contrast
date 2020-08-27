@@ -16,18 +16,6 @@ ext install dark-low-contrast
 
 ![Theme Screenshot](screenshots/dark.png)
 
-### Dark Low Contrast Warm
-
-![Theme Screenshot](screenshots/dark-warm.png)
-
-### Monokai Low Contrast
-
-![Theme Screenshot](screenshots/monokai.png)
-
-### Monokai Low Contrast No Italic
-
-![Theme Screenshot](screenshots/monokai-no-italic.png)
-
 ## Change log
 
 You can take a look at the change log [here](https://github.com/evgeniyp/vscode-dark-low-contrast/blob/master/CHANGELOG.md)
