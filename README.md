@@ -14,7 +14,11 @@ ext install dark-low-contrast
 
 ### Dark Low Contrast
 
-![Theme Screenshot](screenshots/dark.png)
+![Theme Screenshot](screenshots/default.png)
+
+### Dark Low Contrast Warm
+
+![Theme Screenshot](screenshots/warm.png)
 
 ## Change log
 

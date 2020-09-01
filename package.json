@@ -2,7 +2,7 @@
     "name": "dark-low-contrast",
     "displayName": "Dark Low Contrast Themes",
     "description": "Dark Low Contrast Themes for Visual Studio Code",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "publisher": "EvgeniyPetukhov",
     "engines": {
         "vscode": "^1.48.2"
@@ -17,6 +17,11 @@
                 "label": "Dark Low Contrast",
                 "uiTheme": "vs-dark",
                 "path": "./themes/dark-low-contrast-color-theme.json"
+            },
+            {
+                "label": "Dark Low Contrast Warm",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-low-contrast-warm-color-theme.json"
             }
         ]
     },
