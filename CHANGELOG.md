@@ -2,6 +2,10 @@
 
 All notable changes will be documented in this file.
 
+## v0.6.0
+
+Added Cold, Fire, Nature themes (with small `+5` adjustments like in warm theme).
+
 ## v0.5.0
 
 Restored warm theme using this script:
